@@ -3,3 +3,86 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first .country {
+  margin-top: auto;
+}
+
+.countries--first .country:first-child {
+  margin-left: auto;
+}
+
+.countries--second .country {
+  margin-top: auto;
+}
+
+.countries--second {
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+/* another method to center .countries--second  */
+/* .countries--second .country:first-child{
+margin-right: auto;
+}
+
+.countries--second .country:last-child{
+  margin-left: auto;
+  } */
+
+.countries--third .country--brazil {
+  margin-top: auto;
+}
+
+.countries--third .country--croatia,
+.countries--third .country--ethiopia,
+.countries--third .country--laos,
+.countries--third .country--uganda {
+  margin-bottom: auto;
+}
+
+/* Or Use this method */
+/* .countries--third .country--brazil{
+  margin-top: auto;
+  margin-bottom: unset !important;
+  }
+  .countries--third .country{
+    margin-bottom: auto;
+    } */
+
+.countries--fourth {
+  flex-direction: column;
+  justify-content: center; /* Or add margin-top: auto to the first child and margin-bottom: auto to the last child */
+}
+
+.countries--fourth .country {
+  margin-left: auto;
+}
+
+.countries--fourth .country--ethiopia,
+.countries--fourth .country--laos {
+  margin-right: auto;
+}
+
+.countries--fifth {
+  flex-direction: column-reverse;
+}
+
+.countries--fifth .country--uganda {
+  order: 4;
+  margin-right: auto;
+}
+
+.countries--fifth .country {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+.countries--fifth .country--laos {
+  order: 5;
+  margin-top: 0px;
+}
+
+.countries--fifth .country--brazil {
+  margin-bottom: 0px;
+}
