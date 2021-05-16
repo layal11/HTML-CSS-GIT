@@ -2,3 +2,41 @@
   display: flex;
 }
 /* Add your own CSS code below */
+
+.countries--first .country {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.countries--second {
+  flex-direction: row-reverse;
+}
+
+.countries--second .country {
+  margin-top: auto;
+}
+
+.countries--third {
+  flex-direction: column;
+}
+
+.countries--third .country {
+  margin-left: auto;
+}
+
+.countries--fourth {
+  flex-direction: column-reverse;
+}
+
+.countries--fourth .country {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.countries--fourth .country:last-child {
+  margin-top: auto;
+}
+
+li {
+  font-weight: bold;
+}
