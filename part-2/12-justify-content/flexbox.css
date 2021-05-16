@@ -4,6 +4,27 @@
 
 .countries--second .country {
   padding: 0.5em;
+  margin: 0px 10px 0px 10px;
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  justify-content: flex-end;
+}
+
+.countries--second {
+  justify-content: center;
+}
+.countries--third,
+.countries--fourth {
+  flex-direction: column;
+}
+.countries--third .country:first-child {
+  margin-top: auto;
+}
+
+.countries--fourth .country {
+  margin-top: auto;
+  margin-bottom: auto;
+}
