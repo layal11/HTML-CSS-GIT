@@ -3,3 +3,43 @@
 }
 
 /* Add your own CSS code below */
+
+/* .countries--first .country:nth-child(3){
+  margin-top: auto;
+} */
+/* ANOTHER METHOD */
+.countries--first .country--ethiopia {
+  margin-top: auto;
+}
+
+.countries--second .country {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.countries--second .country--ethiopia {
+  margin-top: auto;
+  margin-bottom: unset;
+}
+
+.countries--third .country {
+  margin-bottom: auto;
+}
+
+.countries--third .country--croatia,
+.countries--third .country--ethiopia,
+.countries--third .country--laos {
+  margin-top: auto;
+  margin-bottom: unset;
+}
+
+.countries--fourth {
+  flex-direction: column;
+}
+.countries--fourth .country {
+  margin-right: auto;
+}
+
+.countries--fourth .country--uganda {
+  margin-left: auto;
+}
